@@ -1,4 +1,4 @@
 def find_max_value(array)
-array.sort 
-return array[array.length-1]
+new_array = array.sort 
+return new_array[array.length-1]
 end
